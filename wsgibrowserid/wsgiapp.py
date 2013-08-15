@@ -16,7 +16,7 @@ class BrowserIDException(Exception):
 
 class Application(object):
 
-    default_browserid_verifier = 'https://browserid.org/verify'
+    default_browserid_verifier = 'https://verifier.login.persona.org/verify'
 
     def __init__(self, audience=None, hasher=None, secret_getter=None,
                  cookie_name="auth", browserid_verifier=None):

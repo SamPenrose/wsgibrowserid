@@ -6,7 +6,7 @@
   // FIXME: should get if navigator.id.getVerifiedEmail is available?
 
   function login(callback) {
-    navigator.id.getVerifiedEmail(function(assertion) {
+    navigator.id.get(function(assertion) {
       if (assertion) {
         var req = new XMLHttpRequest();
         req.open('GET', browseridLocation+'?assertion=' + encodeURIComponent(assertion));

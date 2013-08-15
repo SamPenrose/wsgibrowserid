@@ -4,7 +4,7 @@ from wsgibrowserid.wsgiapp import Application
 page = '''\
 <html>
  <head>
-  <script src="https://browserid.org/include.js"></script>
+  <script src="https://login.persona.org/include.js"></script>
   <script src="/auth/wsgibrowserid.js"></script>
  </head>
  <body>

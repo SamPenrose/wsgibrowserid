@@ -4,7 +4,7 @@ version = '0.1'
 
 setup(name='wsgibrowserid',
       version=version,
-      description="Stand-alone app to implement relying-party browserid.org support",
+      description="Stand-alone app to implement relying-party persona.org support",
       long_description="""\
 """,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
